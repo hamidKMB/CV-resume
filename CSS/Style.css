@@ -34,6 +34,11 @@ hr{
 }
 a{
   text-decoration: none;
+  color: #0a043c;
+}
+
+a:visited{
+  color: #0a043c;
 }
 /*****************************************Class items*************/
 .h3{
@@ -45,10 +50,6 @@ a{
   font-size: 2.1rem;
 }
 .img{
-  margin-bottom: 20px;
-}
-.img-by-url{
-  width: 110px;
   margin-bottom: 20px;
 }
 .img-radius{
