@@ -19,7 +19,6 @@ var cloudTop = $(".top_cloud");
 $(window).on("load", function () {
   var scroll = $(window).scrollTop();
   if (scroll < 400 || window.onload) {
-    console.log(scroll);
     for (var i = 0; i <= 1000; i++) {
       cloudBottom.animate({ left: "60px" }, 2500);
       cloudTop.animate({ right: "3.75rem" }, 2500);
