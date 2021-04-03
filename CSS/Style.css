@@ -1,0 +1,223 @@
+/***************************Selectors**********************/
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.2rem;
+  color: #0a043c;
+  background-color: #94ebcd;
+}
+
+table{
+  margin: 20px auto 20px auto;
+  border-collapse:separate;
+  border-spacing:20px 5px;
+}
+
+hr{
+  border-color: #a6f0c6;
+  border-style: dotted none none;
+  border-width: 5px;
+  width:50%;
+  margin: 50px auto 50px;
+}
+
+li{
+  list-style-type: none;
+}
+.nav-link{
+  color: #aaaaaa !important;
+}
+
+.nav-link:hover{
+  color: #0a043c  !important;
+}
+
+.navbar{
+  /* background-color: #fff; */
+}
+/*****************************************Class items*************/
+
+.first{
+  text-align: center;
+}
+
+.img{
+  margin-bottom: 20px;
+}
+.img-radius{
+  background-color: #a6f0c6;
+  border-radius: 25%;
+}
+/************************DIV Containers*******************/
+.navbar-brand{
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.image-bar{
+
+  width: 50px;
+}
+
+.links-bar{
+  padding-top: 4px;
+  padding-right: 30px;
+  display: inline-block;
+}
+
+.navigation-links{
+  border-style: none solid none none;
+  border-width: 1px;
+  padding: 0 20px ;
+}
+
+
+.middle_container {
+ padding: 15px;
+ background-color: #94ebcd;
+}
+
+.bottom_container {
+  background-color: #276678;
+  padding: 0.3rem;
+  height: 2rem;
+  text-align: center;
+  margin-bottom: 0;
+  color: #5eaaa8;
+}
+ .middle_cloud {
+  position: absolute;
+  left: 12.5rem;
+}
+
+.top_cloud {
+  position: absolute;
+  right: 6rem;
+}
+.contact-me{
+  margin-bottom: 20px;
+}
+
+.box{
+  width: 400px;
+  height: 60px;
+  display: block;
+  line-height: 1.5;
+  margin: 0 auto 30px auto;
+}
+
+#image {
+  -moz-transition: transform 1s;
+  -webkit-transition: transform 1s;
+  transition: transform 1s;
+  position:relative;
+  left: 10px;
+}
+
+.flip {
+  transform: rotate(-180deg);
+}
+
+.connection-ways{
+  display: none;
+}
+
+.social-media{
+  margin-left: 20px;
+  color: #0a043c;
+  text-decoration: none;
+}
+
+.social{
+  color: #0a043c;
+  text-decoration: none;
+}
+
+.height{
+  height: 36.8rem;
+}
+
+.margin{
+  margin-top:-1.7rem;
+}
+
+/* .BTN {
+   background: #1E74D0;
+   background-image: -webkit-linear-gradient(top, #1E74D0, #3DF6E5);
+   background-image: -moz-linear-gradient(top, #1E74D0, #3DF6E5);
+   background-image: -ms-linear-gradient(top, #1E74D0, #3DF6E5);
+   background-image: -o-linear-gradient(top, #1E74D0, #3DF6E5);
+   background-image: -webkit-gradient(to bottom, #1E74D0, #3DF6E5);
+   -webkit-border-radius: 9px;
+   -moz-border-radius: 9px;
+   border-radius: 9px;
+   color: #FFFFFF;
+   font-family: 'Comfortaa', cursive;
+   font-size: 18px;
+   font-weight: normal;
+   padding: 18px;
+   -webkit-box-shadow: 1px 1px 20px 0 #3791BD;
+   -moz-box-shadow: 1px 1px 20px 0 #3791BD;
+   box-shadow: 1px 1px 20px 0 #3791BD;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   position: relative;
+   left: 2px;
+}
+
+.BTN:hover {
+   border: solid #337FED 0;
+   background: #6F1ED0;
+   background-image: -webkit-linear-gradient(top, #6F1ED0, #A23DF6);
+   background-image: -moz-linear-gradient(top, #6F1ED0, #A23DF6);
+   background-image: -ms-linear-gradient(top, #6F1ED0, #A23DF6);
+   background-image: -o-linear-gradient(top, #6F1ED0, #A23DF6);
+   background-image: -webkit-gradient(to bottom, #6F1ED0, #A23DF6);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+} */
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+/****************** ID **************/
+#font {
+  font-family: 'Nothing You Could Do', cursive;
+  font-weight: 400;
+  font-size: 6.5rem;
+  padding-top: 1.5rem;
+  z-index: 1;
+  position: relative;
+  top:2rem;
+  margin-bottom: 4rem;
+}
+
+#title{
+  background-color: #a3ddcb;
+}
