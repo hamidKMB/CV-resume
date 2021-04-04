@@ -16,18 +16,21 @@ var cloudTop = $(".top_cloud");
 //assign variables to Clouds
 
 // Stop when scrolls
-$(window).on("load", function () {
+
+
+$(window).scroll(function () {
   var scroll = $(window).scrollTop();
-  if (scroll < 400 || window.onload) {
-    for (var i = 0; i <= 1000; i++) {
+  if (scroll < 630) {
+    console.log(scroll);
       cloudBottom.animate({ left: "60px" }, 2500);
       cloudTop.animate({ right: "3.75rem" }, 2500);
       cloudBottom.animate({ left: "12.5rem" }, 2500);
       cloudTop.animate({ right: "15rem" }, 3000);
-    }
+  } else{
+    cloudBottom.stop();
+    cloudTop.stop();
   }
 });
-
 //Get the button:
 mybutton = document.getElementById("myBtn");
 

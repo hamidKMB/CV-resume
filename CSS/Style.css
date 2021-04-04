@@ -94,6 +94,10 @@ li{
   left: 12.5rem;
 }
 
+.stopAnimation{
+  position: absolute !important;
+}
+
 .top_cloud {
   position: absolute;
   right: 6rem;
