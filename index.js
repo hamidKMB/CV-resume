@@ -14,7 +14,7 @@ function flash( value ) {
 }
 // flash the contact image
 
-flash('img-by-url');
+flash('.img-by-url');
 
 var cloudBottom = $(".middle_cloud");
 var cloudTop = $(".top_cloud");
@@ -32,8 +32,8 @@ function animation( value ){
       cloudTop.animate({right: '15rem'}, 3000);
     } 
     }else {
-    flash('top_cloud');
-    flash('middle_cloud');
+    flash('.top_cloud');
+    flash('.middle_cloud');
   }
 }
 
