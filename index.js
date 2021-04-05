@@ -21,10 +21,10 @@ console.log( "this is window width : " + mobile);
 function animation( value ){
     if (value > 900 ) {
     for( var i = 0 ; i < 100 ; i++ ){
-      middleCloud.animate({left:'60px'}, 2500);
-      topCloud.animate({right: '3.75rem'}, 2500);
-      middleCloud.animate({left: '12.5rem'}, 2500);
-      topCloud.animate({right: '15rem'}, 3000);
+      cloudBottom.animate({left:'60px'}, 2500);
+      cloudTop.animate({right: '3.75rem'}, 2500);
+      cloudBottom.animate({left: '12.5rem'}, 2500);
+      cloudTop.animate({right: '15rem'}, 3000);
     }
   }
 }
