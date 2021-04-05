@@ -371,7 +371,7 @@ li{
 
   /* 999999999999999999999999999999999999thisMarginChanged */
   .margin{
-    margin-top:1.7rem;
+    margin-top:7.7rem;
   }
 
   .only_on_mobile{
@@ -415,6 +415,7 @@ li{
 
   #title{
     background-color: #a3ddcb;
+    height: 46.625rem;
   }
 
   #image {
