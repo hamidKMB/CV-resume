@@ -17,20 +17,26 @@ var cloudTop = $(".top_cloud");
 
 // Stop when scrolls
 
-
-$(window).scroll(function () {
-  var scroll = $(window).scrollTop();
-  if (scroll < 630) {
-    console.log(scroll);
-      cloudBottom.animate({ left: "60px" }, 2500);
-      cloudTop.animate({ right: "3.75rem" }, 2500);
-      cloudBottom.animate({ left: "12.5rem" }, 2500);
-      cloudTop.animate({ right: "15rem" }, 3000);
-  } else{
-    cloudBottom.stop();
-    cloudTop.stop();
-  }
+$(body).ready(function(){  // when the body gets ready and loaded up
+  $(window).scroll(function () {
+    var scroll = $(window).scrollTop(); // also we could use window.pageYOffset instead $(window).scrollTop();
+    if (scroll < 100 ) { //we must change the 630 to 100 to fix the bug of mobile
+      console.log(scroll);
+        cloudBottom.animate({ left: "60px" }, 2500);
+        cloudTop.animate({ right: "3.75rem" }, 2500);
+        cloudBottom.animate({ left: "12.5rem" }, 2500);
+        cloudTop.animate({ right: "15rem" }, 3000);
+    } else{
+      cloudBottom.stop();
+      cloudTop.stop();
+    }
+  });
 });
+
+
+// make clouds move when the window on them
+
+
 //Get the button:
 mybutton = document.getElementById("myBtn");
 
