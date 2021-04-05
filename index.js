@@ -4,12 +4,17 @@ $("#image").click(function () {
 });
 //Toggle the contact ways
 
-setInterval(function () {
-  $(".img-by-url").fadeIn("slow");
-  $(".img-by-url").fadeOut("slow");
-  $(".img-by-url").fadeIn("slow");
-}, 3000);
+
+function flash( value ) {
+    setInterval(function () {
+      $( value ).fadeIn("slow");
+      $( value ).fadeOut("slow");
+      $( value ).fadeIn("slow");
+    }, 3000);
+}
 // flash the contact image
+
+flash('img-by-url');
 
 var cloudBottom = $(".middle_cloud");
 var cloudTop = $(".top_cloud");
