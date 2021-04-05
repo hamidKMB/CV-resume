@@ -231,111 +231,18 @@ li{
 @media screen and (max-width: 992px) {
 
   /***************************Selectors**********************/
-  html{
-    scroll-behavior: smooth;
-  }
-
-  body {
-    margin: 0;
-    font-family: 'Comfortaa', cursive;
-    font-size: 1.2rem;
-    color: #0a043c;
-    background-color: #94ebcd;
-  }
-
-  table{
-    margin: 20px auto 20px auto;
-    border-collapse:separate;
-    border-spacing:20px 5px;
-  }
-
-  hr{
-    border-color: #a6f0c6;
-    border-style: dotted none none;
-    border-width: 5px;
-    width:50%;
-    margin: 50px auto 50px;
-  }
-
-  li{
-    list-style-type: none;
-  }
-
-  /*****************************************Class items*************/
-  .nav-link{
-    color: #aaaaaa !important;
-  }
-
-  .nav-link:hover{
-    color: #0a043c  !important;
-  }
-
-  .navbar{
-    /* background-color: #fff; */
-  }
-
-  .first{
-    text-align: center;
-  }
-
-  .img{
-    margin-bottom: 20px;
-  }
-  .img-radius{
-    background-color: #a6f0c6;
-    border-radius: 25%;
-  }
-
-  .navbar-brand{
-    font-size: 1.2rem;
-    font-weight: 400;
-  }
-
-  .image-bar{
-    width: 50px;
-  }
-
-  .links-bar{
-    padding-top: 4px;
-    padding-right: 30px;
-    display: inline-block;
-  }
-
-  .navigation-links{
-    border-style: none solid none none;
-    border-width: 1px;
-    padding: 0 20px ;
-  }
-
-
-  .middle_container {
-   padding: 15px;
-   background-color: #94ebcd;
-  }
-
-  .bottom_container {
-    background-color: #276678;
-    padding: 0.3rem;
-    height: 2rem;
-    text-align: center;
-    margin-bottom: 0;
-    color: #5eaaa8;
-  }
+ 
    .middle_cloud {
-    opacity: 0.5;
+    opacity: 0.8;
     position: absolute;
     left: 12.5rem;
   }
 
   .top_cloud {
-    opacity: 0.5;
+    opacity: 0.8;
     position: absolute;
     right: 6rem;
   }
-  .contact-me{
-    margin-bottom: 20px;
-  }
-
 /* 9999999999999999999999999999999999999999999999thisBoxChanged999999999 */
 
   .box{
@@ -344,25 +251,6 @@ li{
     display: block;
     line-height: 1.5;
     margin: 0 auto 60px auto;
-  }
-
-  .flip {
-    transform: rotate(-180deg);
-  }
-
-  .connection-ways{
-    display: none;
-  }
-
-  .social-media{
-    margin-left: 20px;
-    color: #0a043c;
-    text-decoration: none;
-  }
-
-  .social{
-    color: #0a043c;
-    text-decoration: none;
   }
 
   .height{
@@ -381,26 +269,6 @@ li{
 
   /****************** ID **************/
 
- #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color:#555 ; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    border-radius: 10px; /* Rounded corners */
-    padding: 15px; /* Some padding */
-    font-size: 11px; /* Increase font size */
-  }
-
-  #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
-  }
-
 
   #font {
     font-family: 'Nothing You Could Do', cursive;
@@ -418,12 +286,6 @@ li{
     height: 48.625rem;
   }
 
-  #image {
-    -moz-transition: transform 1s;
-    -webkit-transition: transform 1s;
-    transition: transform 1s;
-    position:relative;
-    left: 10px;
-  }
+
 
 }
