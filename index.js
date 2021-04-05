@@ -17,7 +17,7 @@ var cloudTop = $(".top_cloud");
 
 // Stop when scrolls
 
-$(body).ready(function(){  // when the body gets ready and loaded up
+$('body').ready(function(){  // when the body gets ready and loaded up
   $(window).scroll(function () {
     var scroll = $(window).scrollTop(); // also we could use window.pageYOffset instead $(window).scrollTop();
     if (scroll < 100 ) { //we must change the 630 to 100 to fix the bug of mobile
