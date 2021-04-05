@@ -25,6 +25,9 @@ function animation( value ){
       cloudTop.animate({right: '3.75rem'}, 2500);
       cloudBottom.animate({left: '12.5rem'}, 2500);
       cloudTop.animate({right: '15rem'}, 3000);
+    } else {
+    flash('top_cloud');
+    flash('middle_clod');
     }
   }
 }
